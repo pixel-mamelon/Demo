@@ -1,0 +1,50 @@
+.overlay {
+  position: absolute;
+  height: calc(100vh - 62px);
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.8)
+  );
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay:after {
+  animation: rotate-up 0.5s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  background: #fafafa;
+  content: '';
+  height: 20rem;
+  left: -3%;
+  position: absolute;
+  right: -3%;
+  top: 94%;
+  transform-origin: 0 0;
+  z-index: 0;
+}
+
+@keyframes rotate-up {
+  100% {
+    transform: rotateZ(-4deg);
+  }
+}
+
+.bgColor {
+  background-color: #fafafa;
+}
+
+.subhero-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}

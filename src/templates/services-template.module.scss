@@ -1,0 +1,12 @@
+.service-description-container {
+	margin:4rem 10rem;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7;
+
+}
+
+@media screen and (max-width: 776px) {
+    .service-description-container {
+        margin:4rem 2rem;
+      }
+  }

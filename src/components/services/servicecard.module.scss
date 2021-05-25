@@ -1,0 +1,42 @@
+.serviceContent {
+  margin-bottom: 1.9rem;
+  background: #fdfeff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  height: calc(100% - 1.9rem);
+
+  max-width: 368px;
+}
+.serviceContent:hover {
+
+  z-index: 1;
+  transform: scale(1);
+  transition: 2s;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.serviceImg {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+.imageDiv {
+  padding: 2rem 0 1rem 0; 
+}
+.serviceHeading {
+  text-align: center;
+  padding-bottom: 0.3rem;
+  margin: 0;
+
+  font: Bold 22px/35px Poppins;
+  color: var(--deepPurple);
+}
+.servicePara {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 0 0 1.6rem 0;
+  font: Regular 20px/24px Helvetica Neue;
+  color: var(--deepPurple);
+}

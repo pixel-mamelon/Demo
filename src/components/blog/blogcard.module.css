@@ -1,0 +1,90 @@
+
+.card {
+
+	background: #fff;
+	text-align: left;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.info {
+	padding-left: 1rem;
+}
+.info h2 {
+	font-size: calc(16px + 4 * ((100vw - 320px) / 847));
+	font-weight: 700;
+	text-transform: capitalize;
+	letter-spacing: 1.7px;
+	padding-left: 10px;
+	color: var(--deepPurple);
+	margin-top: 1rem
+	
+}
+.info h6 {
+	color: #707070;
+	text-transform: capitalize;
+	letter-spacing: 1.2px;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 10px;
+	
+}
+
+.info h6:after {
+	content: "";
+	width: 50px;
+	height: 1px;
+	display: block;
+	background: var(--primaryColor);
+	margin: 0.5rem 0px;
+}
+.info p {
+	padding: 10px 10px;
+	text-align: left;
+	margin-bottom: 0px;
+	color: var(--deepPurple);
+}
+@media screen and (min-width: 776px) {
+	.card {
+		display: grid;
+		grid-template-columns: 350px 1fr;
+		margin-bottom: 1rem;
+		
+
+	}
+	.info {
+	
+		align-items: center;
+		padding-left: 1.5rem;
+		
+	
+	}
+	
+	.image > div {
+		height: 250px;
+		
+	}
+}
+img {
+	display: block;
+	max-width: 100% !important;
+	border-radius: 0.25rem;
+
+	
+}
+.btn-text {
+	background: white;
+	color: var(--primaryColor);
+	border: transparent;
+	padding: 10px 10px;
+	letter-spacing: 1.2px;
+	font-size: 16px;
+	opacity: 1;
+	border: 1px solid white;
+	display: inline-block;
+	transition: all 0.3s linear;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+}
+.btn-text:hover {
+	border: 1px solid var(--primaryColor);
+}

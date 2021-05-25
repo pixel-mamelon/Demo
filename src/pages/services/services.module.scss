@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top:4rem;
+  margin-bottom:2.1rem; 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @media (max-width: 768px) {
+    margin:0;
+  }
+}
+
+.links {
+  text-decoration: none;
+}
